@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2eb40e60-bc00-47e3-a019-7743274dfd02" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/es/unizar/tmdad/lab0/controller/HomeController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/es/unizar/tmdad/lab0/controller/SearchController.java" afterPath="$PROJECT_DIR$/src/main/java/es/unizar/tmdad/lab0/controller/SearchController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/functions.js" afterPath="$PROJECT_DIR$/src/main/resources/static/functions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" />
-    </list>
+    <list default="true" id="2eb40e60-bc00-47e3-a019-7743274dfd02" name="Default" comment="" />
     <ignored path="lab0.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -1396,7 +1390,7 @@
       <workItem from="1456931861871" duration="161000" />
       <workItem from="1456932042062" duration="1389000" />
       <workItem from="1457340355242" duration="702000" />
-      <workItem from="1457341176225" duration="6043000" />
+      <workItem from="1457341176225" duration="6804000" />
     </task>
     <servers />
   </component>
@@ -1406,10 +1400,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12448000" />
+    <option name="totallyTimeSpent" value="13209000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
