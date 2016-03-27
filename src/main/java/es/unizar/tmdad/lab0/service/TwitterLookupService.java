@@ -2,9 +2,13 @@ package es.unizar.tmdad.lab0.service;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.social.twitter.api.SearchResults;
+import org.springframework.social.twitter.api.Stream;
+import org.springframework.social.twitter.api.StreamListener;
 import org.springframework.social.twitter.api.Twitter;
 import org.springframework.social.twitter.api.impl.TwitterTemplate;
 import org.springframework.stereotype.Service;
+import java.util.ArrayList;
+import java.util.List;
 
 @Service
 public class TwitterLookupService {
@@ -20,8 +24,10 @@ public class TwitterLookupService {
 	@Value("${twitter.accessTokenSecret}")
 	private String accessTokenSecret;
 	
-	public SearchResults search(String query) {
+	public void search(String query) {
         Twitter twitter = new TwitterTemplate(consumerKey, consumerSecret, accessToken, accessTokenSecret);
-        return twitter.searchOperations().search(query);
+		List<StreamListener> list = new ArrayList<StreamListener>();
+		list.add(new SimpleStreamListener(messaginTemplate,query));
+		Stream s = twitter.streamingOperations().filter(query,list);
     }
 }
