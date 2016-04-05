@@ -3,12 +3,6 @@ $(document).ready(function() {
 	registerSearch();
 });
 
-
-//var plantilla = "<ul>{{#tweets}}<form> " +
-//	"<div class='row'>{{fromUser}}</div>" +
-//	"<div class='row'>{{unmodifiedText}}</div> " +
-//	"</form>{{/tweets}}</ul>";
-
  var plantilla =
  "{{#tweets}}"+
 	 "<div class='row panel panel-default' th:fragment='content'>" +
